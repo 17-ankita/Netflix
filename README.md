@@ -19,4 +19,4 @@ It demonstrates how to build a responsive website layout with navigation, a hero
 ├── style.css 
 ├── script.js
 └── README.md 
-## Live Demo -
+## Live Demo - https://17-ankita.github.io/Netflix/
