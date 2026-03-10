@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #141414 !important;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 48px;
+    color: #e50914;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 36px;
+    color: #e50914;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: normal;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+}
+
+h4 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+strong {
+    font-size: 20px;
+    color: #e50914;
+}
+
+p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 15px auto;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #e50914;
+}
+
+#subscribeBtn {
+    display: inline-block;
+    background-color: #e50914;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+#subscribeBtn:hover {
+    background-color: #b20710;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+    transition: transform 0.3s;
+}
+
+.movies img, .tvshows img, .show img {
+    width: 320px;
+}
+
+.show img {
+    width: 250px;
+}
+
+.movies, .tvshows, .recommendations {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.tvshows ol {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding-left: 20px;
+}
+
+.show {
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.movies img:hover,
+.tvshows img:hover,
+.show img:hover {
+    transform: scale(1.05);
+}
